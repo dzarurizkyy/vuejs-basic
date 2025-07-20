@@ -1,5 +1,5 @@
 <script setup>
-import MainButton from './components/MainButton.vue';
+  import MainButton from './components/MainButton.vue';
 </script>
 
 <template>

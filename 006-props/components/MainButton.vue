@@ -9,13 +9,10 @@ const {title, disabled} = defineProps(
             type: Boolean,
             default: false
         }
-      
     },
 )
 </script>
 
 <template>
-    <button :disabled="disabled">{{ title }}</button>
+    <button :disabled="disabled"  :style="{cursor: 'pointer'}">{{ title }}</button>
 </template>
-
-<style scoped></style>

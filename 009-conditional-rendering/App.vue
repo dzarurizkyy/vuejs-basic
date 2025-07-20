@@ -1,9 +1,6 @@
 <script setup>
 import { reactive } from "vue"
-const author = reactive({
-  name: "JK Rowling",
-  books: []
-})
+const author = reactive({name: "JK Rowling",books: []})
 </script>
 
 <template>

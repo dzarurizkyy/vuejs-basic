@@ -8,5 +8,5 @@ provide("name", {name, updateName})
 </script>
 
 <template>
-  <MainButton></MainButton>
+  <MainButton />
 </template>

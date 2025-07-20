@@ -7,5 +7,5 @@ const toggledisable = () => disable.value = !disable.value
 </script>
 
 <template>
-  <MainButton title="Click" :disabled="disable" @click="toggledisable" :style="{cursor: 'pointer'}" />
+  <MainButton title="Click" :disabled="disable" @click="toggledisable" />
 </template>

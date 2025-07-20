@@ -12,7 +12,7 @@ const { title, disabled } = defineProps({
 </script>
 
 <template>
-  <button :disabled="disabled" class="button" :class="{disabled: disabled}">{{ title }}</button>
+  <button :disabled="disabled" class="button" :class="{disabled: disabled}" :style="{cursor: 'pointer'}">{{ title }}</button>
 </template>
 
 <style scoped>

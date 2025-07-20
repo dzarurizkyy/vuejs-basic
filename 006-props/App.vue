@@ -4,8 +4,8 @@ import MainButton from './components/MainButton.vue'
 
 <template>
   <div :style="{ display: 'flex', gap: '6px' }">
-    <MainButton :title="`Submit`" :style="{cursor: 'pointer'}" />
-    <MainButton :title="`Test`" :disabled="true" :style="{cursor: 'pointer'}"/>
-    <MainButton :style="{cursor: 'pointer'}"/>
+    <MainButton :title="`Submit`"/>
+    <MainButton :title="`Test`" :disabled="true"/>
+    <MainButton />
   </div>
 </template>

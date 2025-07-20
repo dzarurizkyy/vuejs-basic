@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import MainButton from './components/MainButton.vue';
 
-let counter = ref(0)
+const counter = ref(0)
 const increment = (value) => {
   counter.value += value
   console.log(counter.value)
